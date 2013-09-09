@@ -1,2 +1,3 @@
 {"ts":1378728943124,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1378729019683,"patch":[[{"diffs":[[1,"TEST"]],"start1":0,"start2":0,"length1":0,"length2":4}]],"length":4,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1378741493452,"patch":[[{"diffs":[[-1,"TEST"],[1,"<h1>Hello</h1>\n"]],"start1":0,"start2":0,"length1":4,"length2":15}]],"length":15,"saved":false}
