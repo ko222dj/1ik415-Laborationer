@@ -16,6 +16,64 @@
             <li><a href="/ko222dj/1ik415-laborationer/workspace/Pages/kontakt.html">Kontakt</a></li>
         </ul>
         
+		<form id="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+				
+			<fieldset>
+    			<legend>Ange ditt namn och e-mail</legend>
+    			
+    			<p>
+				    <label for="namn">Namn:</label>
+				    <input type="text" id="namn" name="name" placeholder="Ditt namn..." tabindex="1" required />
+    			</p>
+    			
+    			<p>
+    			    <label for="email">E-mail:</label>
+				    <input type="email" id="email" name="email" placeholder="E-mail..." tabindex="2" required />
+				</p>
+
+    			<p>
+    			    <label for="phone">Tel:</label>
+				    <input type="tel" id="phone" name="tel" placeholder="(+XX) XX XXX XX XX" tabindex="3" required />
+				</p>
+				
+			</fieldset>
+			
+			<fieldset>
+    			<legend>Lämna ditt meddelande nedan</legend>
+
+				<p>
+				    <label for="fraga">Ärendetyp:</label>
+    				<select id="fraga" name="fraga">
+    				    <option value="Fråga" selected>Fråga</option>
+    				    <option value="Feedback">Feedback</option>
+    				</select>
+    			</p>
+    			
+    			<p>
+    			    <label>Meddelande:</label>
+    			</p>
+    			
+    			<p>
+    			    <textarea name="message" placeholder="Ditt meddelande..." tabindex="4" required></textarea>
+    			</p> 
+    		</fieldset>
+    		
+    		<fieldset>
+    		    <legend>Ytterligare information</legend>
+    			<p>
+    			    <label for="kontaktmail">Kontakta mig via mail</label>
+    			        <input type="checkbox" id="kontaktmail" name="viamail" />
+    			</p>
+    			<p>
+    			    <label for="kontakttel">Kontakta mig via telefon</label>
+    			        <input type="checkbox" id="kontakttel" name="viatel" />
+    			</p>
+    		</fieldset>
+			
+			<input type="submit" id="submit" name="submit" value="Send" tabindex="4">
+			
+		</form>
+        
         <p>Jag kan nås via <a href="mailto:kubilay.orman@gmail.com">kubilay.orman@gmail.com</a></p>
 
     </body>
